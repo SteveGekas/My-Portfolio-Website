@@ -1,0 +1,11 @@
+body {
+    background-color: #dddddd;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+    background-color:#cccccc;
+
+}
+
