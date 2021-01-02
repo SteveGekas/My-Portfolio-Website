@@ -8,4 +8,44 @@ nav {
     background-color:#cccccc;
 
 }
+.navbar-nav {
+    float: right;
 
+}
+
+.img-rounded {
+    width: 350px;
+    height: 400px;
+    float: left;
+    padding: 10px;
+}
+
+.img-responsive {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid yellow;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h6 {
+    color: red;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn {
+    position: relative;
+    left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
