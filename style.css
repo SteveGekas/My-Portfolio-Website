@@ -25,6 +25,11 @@ nav .navbar-nav li a{
     
 }
 
+.words {
+    padding-top: 10px;
+    font-family: fantasy;
+}
+
 .img-responsive {
     display: block;
     margin-top: 100px;
@@ -33,7 +38,16 @@ nav .navbar-nav li a{
     width: 200px;
     height: 200px;
     border: 5px solid yellow;
-    padding: 10px;
+}
+
+.work, .food, .password, .planner, .refactor {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
 }
 
 p {
@@ -68,6 +82,7 @@ h6 {
     justify-content: center;
     align-items: center;
     background-color: red;
+    
 }
 
 .footer {
