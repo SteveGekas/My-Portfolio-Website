@@ -1,5 +1,14 @@
-body {
-    background-color: #dddddd;
+.portfolio {
+    background-image: url("./assets/images/wall.jpg");
+}
+
+.contact {
+    background-image: url("./assets/images/wood.jpg");
+}
+
+.about {
+    background-image: url("./assets/images/cracks.jpg");
+
 }
 
 nav {
@@ -28,6 +37,7 @@ nav .navbar-nav li a{
 .words {
     padding-top: 10px;
     font-family: 'verdana', serif;
+    font-style: italic;
 }
 
 .img-responsive {
@@ -40,7 +50,7 @@ nav .navbar-nav li a{
     border: 5px solid yellow;
 }
 
-.work, .food, .password, .planner, .refactor {
+.work, .food, .password, .planner, .refactor, .tracker, .readme, .vinyl {
     display: block;
     margin-top: 10px;
     margin-left: auto;
@@ -48,11 +58,13 @@ nav .navbar-nav li a{
     text-align: center;
     font-family: 'verdana', serif;
     color: black;
+    text-shadow: 2px 2px whitesmoke;
 }
 
 p {
     text-indent: 30px;
     padding-top: 10px;
+    padding-bottom: 10px;
     font-family: 'verdana', serif;
     font-size: 20px;
     line-height: 1.3;
@@ -69,7 +81,9 @@ h3 {
 
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 3px 3px black;
 }
 
 h6 {
@@ -86,11 +100,12 @@ h6 {
     justify-content: center;
     align-items: center;
     background-color: red;
+    margin-bottom: 20px;
     
 }
 
 .footer {
-    padding-top: 10px;
+    margin-top: 20px;
     background-color: #cccccc;
 }
 
